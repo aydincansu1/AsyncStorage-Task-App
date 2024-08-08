@@ -1,79 +1,25 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# AsyncStorage-Task-App
+Merhaba!
+AsyncStorage-Task-App, React Native kullanılarak geliştirilmiş kapsamlı bir görev yönetim uygulamasıdır. Uygulama, kullanıcıların görevlerini yönetmelerine olanak tanır ve çeşitli özelliklerle kullanıcı deneyimini zenginleştirir. Bu uygulama, görev ekleme, listeleme, silme ve güncelleme gibi temel işlevlerin yanı sıra modern React Native ekosisteminin sunduğu çeşitli kütüphaneleri de kullanır.
 
-# Getting Started
+## Özellikler
+Görev Yönetimi:
+Görev Ekleme: Yeni görevler ekleme işlevi.
+Görev Listeleme: Mevcut görevleri düzenli bir şekilde listeleme.
+Görev Silme: Listelediğiniz görevleri kolayca silme.
+Görev Güncelleme: Var olan görevlerinizi güncelleme imkanı.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Kullanılan Teknolojiler ve Kütüphaneler
+- React Native: Uygulama geliştirme için kullanılan ana teknoloji, hem iOS hem de Android platformlarında çalışmayı sağlar.
+- @react-native-async-storage/async-storage: Kullanıcı bilgilerini ve görev verilerini yerel olarak saklamak için kullanılır. Veriler, uygulama kapatıldığında bile korunur.
+- @react-navigation/native ve @react-navigation/native-stack: Ekranlar arasında geçiş yapmak için kullanılan kütüphanelerdir, kullanıcıların uygulama içinde kolayca gezinmelerini sağlar.
+- react-native-screens ve react-native-safe-area-context: Performansı artırmak ve güvenli alanları yönetmek için kullanılır.
+- react-native-gesture-handler: Kullanıcı etkileşimlerini yönetmek için kullanılan bir kütüphanedir.
+- react-native-modal-datetime-picker ve @react-native-community/datetimepicker: Tarih ve saat seçimleri için modal ve picker bileşenleri sağlar.
+- react-native-vector-icons: Uygulama içinde simgeler ve ikonlar kullanmak için kullanılır.
+- react-native-dropdown-picker: Dropdown (açılır) menüler oluşturmak için kullanılan bir kütüphanedir.
+- react-native-uuid: Eşsiz kimlikler (UUID) oluşturmak için kullanılır.
+- react-native-toast-message: Kullanıcıya mesaj ve bildirimler göstermek için kullanılır.
+Detaylı bilgi ve kaynaklar için GitHub adresimden uygulamanın kodlarına ulaşabilirsiniz:
 
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Bu uygulamanın, React Native ekosistemindeki temel kavramları ve modern kütüphaneleri kullanarak size sağlam bir temel sunmasını umuyorum. Geri bildirimleriniz ve önerileriniz için her zaman açığım. Keyifli kodlamalar! 😊
